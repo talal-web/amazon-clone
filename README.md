@@ -2,7 +2,7 @@
 
 E-commerce website clone inspired by Amazon, built to simulate a modern online shopping experience.
 
-## Features (Planned)
+## Features
 
 - Responsive **Navbar** with logo and navigation links
 - Eye-catching **Hero Section** with banner image and call-to-action
@@ -18,7 +18,7 @@ E-commerce website clone inspired by Amazon, built to simulate a modern online s
 - HTML5
 - CSS3 (Flexbox/Grid)
 
-## How to Run (Planned)
+## How to Run
 
 1. Clone the repository:
    ```bash
