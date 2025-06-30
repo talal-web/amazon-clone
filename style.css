@@ -182,3 +182,13 @@
       background-color: #0056b3;
     }
 
+@media (max-width: 768px) {
+      .card {
+        width: 45%;
+      }
+    }
+
+@media (max-width: 480px) {
+      .card {
+        width: 100%;
+      }
