@@ -132,3 +132,53 @@
 .border:hover{
     border: 2px solid white;
 }
+.hero-section{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.shopping-section {
+    position: absolute;
+    top: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    }
+
+.card {
+      width: 22%;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      background-color: #fff;
+    }
+
+.card h3 {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+.card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+.card a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 6px 12px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+.card a:hover {
+      background-color: #0056b3;
+    }
+
