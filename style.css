@@ -139,8 +139,8 @@
     max-width: 100%;
 }
 .shopping-section {
-    position: absolute;
-    top: 40%;
+    position: relative;
+    margin-top: -340px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -181,6 +181,97 @@
 .card a:hover {
       background-color: #0056b3;
     }
+.foot-panel-1{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #37475a;
+    text-align: center;
+    padding: 15px 0;
+}
+.foot-panel-1:hover{
+    background-color: #46576b;
+}
+.foot-panel-1 a{
+    color: white;
+    text-decoration: none;
+}
+.foot-panel-2{
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+.box h4{
+    font-size: 16px;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+}
+.list{
+    text-align: start;
+    line-height: 1.8rem;
+}
+.list ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.list ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #dddd;
+}
+.foot-panel-3{
+    display: flex;
+    justify-content: center;
+    height: 67px;
+    border-top: 0.5px solid white;
+    color: #ddd;
+    background-color: #232F3E;
+}
+.foot-logo{
+    height: 67px;
+    width: 90px;
+}
+.foot-logo img{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+.footer-links {
+    padding: 20px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-links a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.list ul li a:hover {
+  text-decoration: underline;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+    padding: 10px;
+    text-align: center;
+    background-color: #0f1111;
+    color: #ddd;
+}
+
+
+
+
+
 
 @media (max-width: 768px) {
       .card {
